@@ -1,0 +1,44 @@
+{
+  "name": "workspace",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "http://github.com/zeekay/workspace",
+  "bugs": "http://github.com/zeekay/workspace/issues",
+  "keywords": [
+    "npm",
+    "workspaces",
+    "symlink"
+  ],
+  "bin": "bin/workspace",
+  "main": "dist/workspace.js",
+  "module": "dist/workspace.mjs",
+  "jsnext:main": "dist/workspace.mjs",
+  "files": [
+    "bin/workspace",
+    "dist/",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "cake build",
+    "test": "cake test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zeekay/workspace"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "cake-bundle": "0.2.6",
+    "cake-outdated": "0.1.15",
+    "cake-publish": "0.1.10",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.11",
+    "cake-yarn": "0.1.1",
+    "shortcake": "1.2.5"
+  }
+}
