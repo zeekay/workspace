@@ -1,4 +1,5 @@
 dist/
+bin/
 coverage/
 node_modules/
 phantomjsdriver.log
