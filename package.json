@@ -1,20 +1,22 @@
 {
-  "name": "workspace",
+  "name": "workspaces",
   "version": "0.1.0",
   "description": "",
-  "homepage": "http://github.com/zeekay/workspace",
-  "bugs": "http://github.com/zeekay/workspace/issues",
+  "homepage": "http://github.com/zeekay/workspaces",
+  "bugs": "http://github.com/zeekay/workspaces/issues",
   "keywords": [
     "npm",
+    "packages",
+    "workspace",
     "workspaces",
     "symlink"
   ],
-  "bin": "bin/workspace",
-  "main": "dist/workspace.js",
-  "module": "dist/workspace.mjs",
-  "jsnext:main": "dist/workspace.mjs",
+  "bin": "bin/workspaces",
+  "main": "dist/workspaces.js",
+  "module": "dist/workspaces.mjs",
+  "jsnext:main": "dist/workspaces.mjs",
   "files": [
-    "bin/workspace",
+    "bin/workspaces",
     "dist/",
     "src/"
   ],
@@ -28,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/zeekay/workspace"
+    "url": "http://github.com/zeekay/workspaces"
   },
   "dependencies": {
   },
